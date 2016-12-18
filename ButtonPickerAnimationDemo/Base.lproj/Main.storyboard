@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="1100" y="36"/>
         </scene>
-        <!--Star View Controller-->
+        <!--Single buttons-->
         <scene sceneID="QFR-8i-nfF">
             <objects>
-                <viewController id="7Bp-Oc-rAG" customClass="StarViewController" sceneMemberID="viewController">
+                <viewController title="Single buttons" id="7Bp-Oc-rAG" customClass="StarViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v6m-5l-6Ue"/>
                         <viewControllerLayoutGuide type="bottom" id="eQo-V3-FIi"/>
@@ -90,6 +90,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNJ-3M-JP4">
                                 <rect key="frame" x="155" y="270" width="64" height="64"/>
                                 <state key="normal" image="heart"/>
+                                <connections>
+                                    <action selector="heartAction:" destination="7Bp-Oc-rAG" eventType="touchUpInside" id="fTy-lf-FGX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -101,6 +104,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="heartButton" destination="aNJ-3M-JP4" id="GG8-wQ-0kP"/>
                         <outlet property="starButton" destination="Fq3-OL-XIk" id="rpW-6y-EAK"/>
                     </connections>
                 </viewController>
