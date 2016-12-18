@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, CBFeedbackState) {
+    CBFeedbackStateEmpty = 0,
+    CBFeedbackStateLiked,
+    CBFeedbackStateDisliked,
+    CBFeedbackStateHeart
+};
+
 @interface ViewController : UIViewController
 
 

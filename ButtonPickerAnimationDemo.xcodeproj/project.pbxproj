@@ -13,6 +13,7 @@
 		A6122A751E0698E200BC787C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6122A731E0698E200BC787C /* Main.storyboard */; };
 		A6122A771E0698E200BC787C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6122A761E0698E200BC787C /* Assets.xcassets */; };
 		A6122A7A1E0698E200BC787C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6122A781E0698E200BC787C /* LaunchScreen.storyboard */; };
+		A6122A831E06B36300BC787C /* StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6122A821E06B36300BC787C /* StarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A6122A761E0698E200BC787C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6122A791E0698E200BC787C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6122A7B1E0698E200BC787C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6122A811E06B36300BC787C /* StarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarViewController.h; sourceTree = "<group>"; };
+		A6122A821E06B36300BC787C /* StarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A6122A6E1E0698E200BC787C /* AppDelegate.m */,
 				A6122A701E0698E200BC787C /* ViewController.h */,
 				A6122A711E0698E200BC787C /* ViewController.m */,
+				A6122A811E06B36300BC787C /* StarViewController.h */,
+				A6122A821E06B36300BC787C /* StarViewController.m */,
 				A6122A731E0698E200BC787C /* Main.storyboard */,
 				A6122A761E0698E200BC787C /* Assets.xcassets */,
 				A6122A781E0698E200BC787C /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6122A831E06B36300BC787C /* StarViewController.m in Sources */,
 				A6122A721E0698E200BC787C /* ViewController.m in Sources */,
 				A6122A6F1E0698E200BC787C /* AppDelegate.m in Sources */,
 				A6122A6C1E0698E200BC787C /* main.m in Sources */,
